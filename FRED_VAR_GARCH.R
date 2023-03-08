@@ -1,4 +1,4 @@
-# FREDの時系列データを用いたVAR・GARCH分析（R）
+# FREDの時系列データ（GDPやPPIなど）を用いたVAR・GARCH分析
 
 library(tidyverse)
 library(vars)
