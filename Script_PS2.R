@@ -1,12 +1,4 @@
-# setwd("~/Time Series Analysis/Problem Set 2")
-
-# --- 1 ---
-
-polyroot(c(-2.6, -0.7, 1))
-polyroot(c(0, 0.15, -0.78, -0.8, 1))
-
-
-# --- 2 ---
+# FREDの時系列データを用いたVAR・GARCH分析
 
 library(tidyverse)
 library(vars)
@@ -132,8 +124,6 @@ par(mfrow = c(1, 1))
 # dev.off()
 
 
-# --- 3 ---
-
 GDPC1 <- fredr_series_observations(
  series_id = "GDPC1",
  observation_start = as.Date("1948-01-01"),
@@ -177,9 +167,6 @@ par(mfrow = c(1, 2))
 plot(BQirf, plot.type = "single", main = "")
 par(mfrow = c(1, 1))
 # dev.off()
-
-
-# --- 4 ---
 
 library(rugarch)
 
