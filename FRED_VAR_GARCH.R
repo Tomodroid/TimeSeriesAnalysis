@@ -1,5 +1,3 @@
-# FREDの時系列データ（GDPやPPIなど）を用いたVAR・GARCH分析
-
 library(tidyverse)
 library(vars)
 library(fredr)
